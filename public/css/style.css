@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main {
+    flex: 1;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rouge {
+    background-color: #A00;
+}
+
+.bleu {
+    background-color: #00A;
+}
+
+.vote {
+    padding: 2rem;
+}
+
+input[type=button] {
+    width: 100%;
+}
